@@ -26,9 +26,9 @@ const HeroSection = () => {
               />
             </div>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl text-primary font-bold max-w-lg animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-lg animate-fade-up font-medium" style={{ animationDelay: "0.2s" }}>
             Pediatra Puericultor · Prolactancia
-          </h1>
+          </p>
           <p className="font-body text-base md:text-lg text-muted-foreground max-w-lg animate-fade-up" style={{ animationDelay: "0.3s" }}>
             Acompaño a madres, bebés y niños con calidez y profesionalismo, desde el corazón y la excelencia médica.
           </p>
@@ -68,8 +68,8 @@ const HeroSection = () => {
               <Heart size={18} className="text-primary" />
             </div>
             <div>
-              <p className="text-sm font-bold text-foreground">22 años de experiencia</p>
-              <p className="text-xs text-muted-foreground">como pediatra</p>
+              <p className="text-sm font-bold text-foreground">22 años</p>
+              <p className="text-xs text-muted-foreground">de pediatra</p>
             </div>
           </div>
         </div>

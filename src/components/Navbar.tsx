@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import logoImg from "@/assets/logo_sory.png";
 
 const navItems = [
@@ -50,14 +49,6 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <li className="flex items-center gap-4 ml-2 mr-2">
-            <a href="https://instagram.com/DraSoryLM" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-all hover:scale-110" aria-label="Instagram">
-              <FaInstagram size={22} />
-            </a>
-            <a href="https://wa.me/584126672489" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-all hover:scale-110" aria-label="WhatsApp">
-              <FaWhatsapp size={22} />
-            </a>
-          </li>
           <li>
             <a
               href="https://wa.me/584126672489"
@@ -95,14 +86,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <li className="flex items-center justify-center gap-6 my-2">
-              <a href="https://instagram.com/DraSoryLM" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors p-2 bg-secondary/10 rounded-full hover:bg-secondary/30" aria-label="Instagram">
-                <FaInstagram size={24} />
-              </a>
-              <a href="https://wa.me/584126672489" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors p-2 bg-secondary/10 rounded-full hover:bg-secondary/30" aria-label="WhatsApp">
-                <FaWhatsapp size={24} />
-              </a>
-            </li>
             <li>
               <a
                 href="https://wa.me/584126672489"
